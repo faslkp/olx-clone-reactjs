@@ -1,0 +1,61 @@
+.create-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px 0;
+}
+.createParentDiv {
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+    width: 20%;
+    min-width: 200px;
+    max-width: 90%;
+}
+.img-container {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+.img-container img {
+    width: 100%;
+    display: block;
+}
+.form {
+    padding: 0 10px;
+}
+.createParentDiv input {
+    border-top-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    outline-color: transparent;
+    width: 100%;
+    margin-bottom: 10px;
+    height: 40px;
+    font-size: 16px;
+}
+.preview-img {
+    width: 100%;
+    display: block;
+}
+.createParentDiv button {
+    width: 100%;
+    height: 48px;
+    /* border-color: transparent; */
+    background-color: #002f34;
+    color: whitesmoke;
+    font-weight: 900;
+}
+.createParentDiv button:hover {
+    background-color: white;
+    color: #002f34;
+    border: 2px solid #002f34;
+}
+.createParentDiv a {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000;
+    margin-top: 15px;
+}

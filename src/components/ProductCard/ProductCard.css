@@ -1,0 +1,60 @@
+.card {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    padding: 8px;
+    border: 1px solid #999;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+}
+.product-img-container {
+    width: 100%;
+    max-height: 60%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.img-container img {
+    width: 100%;
+    display: block;
+    object-fit: contain;
+}
+.heart {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: #fff;
+    padding: 6px;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.name {
+    margin-bottom: 10px;
+}
+.price {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.details {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #555;
+    margin-bottom: 20px;
+}
+.more {
+    color: #555;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    text-transform: uppercase;
+}
